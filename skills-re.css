@@ -1,0 +1,93 @@
+@media(max-width:900px){
+    /* --- */
+    .more{
+        font-size:20px;
+    }
+    h1{
+        font-size:30px;
+    }
+    /* - トップ - */
+    .heading-1,.heading-2{
+        font-size:40px ;
+    }
+    .nav a{
+        line-height:40px;
+        font-size:20px;
+    }
+    /* - スキル - */
+    .content02{
+        grid-template-columns: 1fr 1fr;
+    }
+    /* - コンタクト - */
+    .img06{
+        width:40%;
+    }
+    .txt06{
+        width:60%;
+    }
+    .hide06{
+        font-size:18px;
+    }
+    .icon06 i{
+        font-size:100px;
+    }
+}
+/*  
+@media(min-width:601px){  }
+*/
+@media(max-width:600px){
+  /* --- */
+  body{
+      font-size:14px;
+  }
+  .container{
+    width:100%;
+    max-width:none;
+    margin-bottom:20px;
+}
+h1{
+    font-size:20px;
+}
+.more{
+    font-size:16px;
+}
+.stecker{
+    display:block;
+}
+/* - Top - */
+.top-view{
+    height:100%;
+    border:none;
+}
+.content01-1,.content01-2{
+    display:none;
+}
+#hide-list{
+    display:block;
+}
+/* - スキルズ - */
+.content02{
+    grid-template-columns: 1fr;
+}
+.under{
+    width:40%;
+    height:6px;
+    border-radius:3px;
+}
+/* - コンタクト - */
+.bottom-view{
+    height:30%;
+}
+.content06{
+    display:block;
+}
+.img06{
+    display:none;
+}
+
+/* - フッター - */
+.footer{
+    background-color: #C7A23A;
+}
+
+}
